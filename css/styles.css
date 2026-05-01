@@ -1,0 +1,52 @@
+body    {
+    
+    background-image: url('../images/checkerboard.jpg');
+
+}
+
+h1 {
+    color: black;
+}
+
+h2, h3 {
+    font-family: Archivo Black;
+    color: #0c5502;
+    text-shadow: 3px 3px 3px rgb(255, 255, 255);
+}
+
+p {
+    font-family: Mulish;
+    color: #1e9a31;
+}
+
+li {
+    font-family: Dancing Script;
+    color :#1e9a31;
+}
+
+hr {
+    color: #0c5502;
+}
+legend, fieldset {
+    color: #000000;
+    font-family: Dancing Script;
+}
+figcaption {
+    font-family: EB Garamond;
+    color: black;
+    text-shadow: 3px 3px 3px black;
+    font-size: 10 px;
+}
+/*div {
+    border: double cornflowerblue;
+}*/
+
+.wrapper {
+  display: flex;
+
+}
+
+.wrapper div {
+
+  flex: 1;
+}
