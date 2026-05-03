@@ -5,48 +5,118 @@ body    {
 }
 
 h1 {
+    font-family: "Segoe Print";
     color: black;
 }
 
-h2, h3 {
-    font-family: Archivo Black;
-    color: #0c5502;
-    text-shadow: 3px 3px 3px rgb(255, 255, 255);
+#recipeTitle {
+    color:#95df8b;
+    font-family: "Impact";
+    font-size: 4rem;
+    text-decoration: underline;
+    text-shadow: 3px 3px 0px rgb(4, 43, 0);
+}
+
+h3 {
+    font-size: 2.5vw;
+    font-family: "Impact";
+    text-decoration: underline;
+    color:#28681f;
+    text-shadow: 3px 3px 0px rgba(4, 43, 0, 0.292);
 }
 
 p {
     font-family: Mulish;
-    color: #1e9a31;
+    color: #0e4a17;
 }
 
-li {
-    font-family: Dancing Script;
-    color :#1e9a31;
-}
-
-hr {
-    color: #0c5502;
-}
-legend, fieldset {
-    color: #000000;
-    font-family: Dancing Script;
-}
 figcaption {
-    font-family: EB Garamond;
-    color: black;
-    text-shadow: 3px 3px 3px black;
-    font-size: 10 px;
+    font-size: 12px;
 }
-/*div {
+
+img {
+    width: 20vw;
+    height: auto;
+    border-radius: 20px;
+    filter: drop-shadow(10px 10px 0px #000000);
+    padding:10px;
+}
+
+input {
+    color:#28681f;
+
+}
+
+.convert {
+    height: 30px;
+    width: 80px;
+    font-family: "Consolas";
+}
+
+fieldset {
+    display: flex;
+    justify-content: space-evenly;
+    font-weight: bold;
+    background-color: #0f340f;
+    font-family: Monaco;
+    color:#ffffff
+    
+}
+
+legend {
+    background-color: #0f4d26;
+    outline: 2px solid #000000;
+    width:fit-content;
+    padding: 10px;
+    color:#96f199
+}
+
+ol {
+    font-family: Mulish;
+    color: #0e4a17;
+    background-color: #e5ffe0;
+    border-radius: 20px;
+}
+
+ul {
+    font-family: Mulish;
+    color: #0e4a17;
+    background-color: #e5ffe0;
+    border-radius: 20px;
+}
+
+.buttons {
+    width: 10vw;
+    height: 5vh;
+    cursor: pointer;
+    font-family: "Brushstroke";
+    font-size: 1.5vw;
+    background-color: #4CAF50;
+    font-weight: bold;
+    border-radius: 20px;
+    
+    
+}
+
+.buttons:hover {
+    background-color: #5edc62;
+}
+
+ /* div {
     border: double cornflowerblue;
-}*/
+}  */
 
-.wrapper {
-  display: flex;
-
+* {
+    box-sizing: border-box;
 }
 
-.wrapper div {
+[class*="col"] {
+    float: left;
+    padding: 15 px;
+}
 
-  flex: 1;
+.row::after {
+    content: "";
+    clear: both;
+    display: block;
 }
