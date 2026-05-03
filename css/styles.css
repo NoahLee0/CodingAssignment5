@@ -89,6 +89,13 @@ ul {
     
 }
 
+hr.borderline {
+    border: 0;
+    border-top: 2px solid #0e4a17;
+    width: 100%;
+}
+
+
 span{
     color:#00000070;
 }
